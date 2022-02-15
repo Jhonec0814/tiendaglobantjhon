@@ -41,16 +41,16 @@ botonRegistro.addEventListener("click",function(event){
     // Signed in
     const user = userCredential.user;
     // ...
-    mensajeRegistro.textContent="Exito en el registro. ¡Bienvenido!"
-    modalRegistro.show()
+    mensajeLogin.textContent="Exito en el registro. ¡Bienvenido!"
+    modalLogin.show()
     console.log("todo bien mi pae")
     })
     .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
     // ..
-    mensajeRegistro.textContent=`Error: ${errorCode} : ${errorMessage}` 
-    modalRegistro.show()
+    mensajeLogin.textContent=`Error: ${errorCode} : ${errorMessage}` 
+    modalLmensajeLogin.show()
     console.log("error motherfucker :V")
     });
 
