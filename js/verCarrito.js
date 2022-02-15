@@ -18,6 +18,9 @@ export function verCarrito(carrito) {
         imagen.classList.add("w-100")
         imagen.src = "./img/carrito_vacio.png"
 
+        columna1.appendChild(imagen)
+        contenedor.appendChild(columna1)
+
     } else {
 
 
